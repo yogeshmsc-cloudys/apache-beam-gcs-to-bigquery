@@ -1,0 +1,6 @@
+{ "given" : "John",  "surname" : "Smith", "sku" : "20223", "price" :  23.95, "quantity": 2}
+{ "given" : "Alice", "surname" : "Brown", "sku" : "54321", "price" : 199.95, "quantity": 1}
+{ "given" : "John",  "surname" : "Smith", "sku" : "23420", "price" : 104.95, "quantity": 3}
+{ "given" : "Bob",   "surname" : "Green", "sku" : "90231", "price" : 300.00, "quantity": 2}
+{ "given" : "Scott", "surname" : "Jones", "sku" : "54321", "price" : 199.95, "quantity": 5}
+{ "given" : "Jim",   "surname" : "Lee",   "sku" : "89820", "price" :  46.50, "quantity": 1}
