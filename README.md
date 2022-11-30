@@ -1,6 +1,4 @@
-# apache-beam-gcs-to-bigquery
-
-# Load data from Google Cloud Storage bucket to Bigquery table with transformation.
+# Load data from Google Cloud Storage bucket to Bigquery table with transformations by Apache Beam.
 
 ## Pre-requisites:
 
@@ -29,6 +27,17 @@ gcloud auth application-default login
 
 $env:GOOGLE_APPLICATION_CREDENTIALS="C:\<path>\gcloud\application_default_credentials.json"
 $env:GOOGLE_CLOUD_PROJECT="your-gcp-project-id"
+
+gcloud config set project "your-gcp-project-id"
+```
+
+## Linux:
+
+```bash
+gcloud auth application-default login
+
+export GOOGLE_APPLICATION_CREDENTIALS="$HOME\.config\gcloud\application_default_credentials.json"
+export GOOGLE_CLOUD_PROJECT="your-gcp-project-id"
 
 gcloud config set project "your-gcp-project-id"
 ```
